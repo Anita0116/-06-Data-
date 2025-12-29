@@ -1,0 +1,32 @@
+# VS Code
+.vscode/
+
+# Virtual environments
+venv/
+env/
+.venv/
+myenv/
+.ENV/
+.env
+myenv1/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# DS_Store files
+.DS_Store/.env
+
+# 大文件/敏感文件
+*.zip
+*.rar
+*.pth
+*.ckpt
+*.h5
+*.pt
+data/  # 数据集（如果体积大，不上传，在 README 说明）
+models/ # 模型文件（体积大，不上传）

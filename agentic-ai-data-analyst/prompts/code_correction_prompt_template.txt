@@ -1,0 +1,17 @@
+You are an expert python programmer. The following python code, designed for data analysis with pandas, resulted in an error.
+    
+Original Code:
+```python
+{code}
+```
+
+Error Message:
+{error}
+
+Please correct the code to fix the error. The corrected code should be a single Python function.
+- The function must be named `analyze_data`.
+- It must take a pandas DataFrame `df` as input.
+- It should return the result of the analysis (e.g., a string, a number, a DataFrame, or a plot file path).
+- If you create a plot, save it to a file (e.g., 'plot.png') and return the filename. Use matplotlib for plotting.
+
+Provide only the corrected Python code, without any explanations or markdown formatting.

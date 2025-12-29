@@ -1,0 +1,15 @@
+column_name,column_description,data_type
+TMB,肿瘤突变负荷（单位：mut/Mb）,float
+PDL1_TPS,PD-L1表达水平（范围：0-100%）,float
+Age,患者确诊年龄（单位：岁）,float
+Sex,性别（1=男性，0=女性）,integer
+PFS_Event,无进展生存期事件标记（1=进展，0=未进展）,integer
+OS_Months,总生存期（单位：月）,float
+Response,治疗响应（1=有响应，0=无响应）,integer
+Drug,治疗药物（1=PD-1抑制剂，2=EGFR靶向药，3=化疗）,integer
+PFS_Months,无进展生存期（单位：月）,float
+OS_Event,总生存期事件标记（1=死亡，0=存活）,integer
+NLR,中性粒细胞淋巴细胞比值,float
+Albumin,白蛋白水平（单位：g/dL）,float
+Systemic_therapy_history,全身治疗史（1=有，0=无）,integer
+Cohort,队列名称（如Chowell_train）,string
